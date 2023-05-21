@@ -7,7 +7,9 @@ let offset = 0;
 let slideIncrement = 0;
 let slideDecrement = slides.length-1;
 
-console.log(rightArrow)
+setInterval(() => {
+    rightArrow.click();
+}, 2500)
 
 rightArrow.addEventListener('click', () => {
     rightArrow.disabled = true;

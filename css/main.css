@@ -212,3 +212,8 @@ footer {
   align-items: center;
   font-size: 0.6em;
 }
+
+input[type=button] {
+  position: relative;
+  left: 216px;
+}
